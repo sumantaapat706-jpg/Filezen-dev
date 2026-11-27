@@ -7,7 +7,7 @@ import Home from './pages/Home';
 import './App.css';
 import { Analytics } from '@vercel/analytics/react';
 
-function App() {
+export function App() {
   return (
     <div>
       {/* Your existing app components */}
@@ -15,6 +15,7 @@ function App() {
     </div>
   );
 }
+
 const AdvancedCompression = lazy(() => import('./pages/AdvancedCompression.jsx'));
 const BatchProcessing = lazy(() => import('./pages/BatchProcessing'));
 const PDFToJPG = lazy(() => import('./pages/PDFToJPG'));
