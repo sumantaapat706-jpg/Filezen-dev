@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import './App.css';
+import { Analytics } from '@vercel/analytics/react';
 
 
 const AdvancedCompression = lazy(() => import('./pages/AdvancedCompression.jsx'));
@@ -73,6 +74,7 @@ export default function App() {
           </Suspense>
         </main>
         <Footer />
+        <Analytics />
       </div>
     </Router>
   );
