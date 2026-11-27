@@ -3,7 +3,7 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/Filezen-dev/',
+  base: '/',
   devtools: {
     // Remove this `apply` property to enable devtools for build as well
     apply: 'serve',
