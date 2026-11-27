@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Filezen</string>
+    <string name="title_activity_main">Filezen</string>
+    <string name="package_name">com.filezen.app</string>
+    <string name="custom_url_scheme">com.filezen.app</string>
+</resources>
